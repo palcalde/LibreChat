@@ -13,5 +13,16 @@ librechat*
 Dockerfile*
 docs
 
+# Exclude docker-compose files
+docker-compose*.yml
+deploy-compose.yml
+*.override.yml
+*.override.yml.example
+
+# Exclude .gitignore files (explicit patterns for better matching)
+**/.gitignore
+.gitignore
+
 # Ignore all hidden files
 .*
+
